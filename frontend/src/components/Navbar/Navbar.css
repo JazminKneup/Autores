@@ -1,0 +1,20 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px; 
+    padding: 10px; 
+    background-color: #ebb917; 
+  
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #f9f9f9; 
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; 
+  }
+  

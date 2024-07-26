@@ -1,0 +1,57 @@
+
+.author-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .author-list h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .author-list table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #007bff;
+  }
+  
+  .author-list th, .author-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .author-list th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .author-list tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .author-list button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  
+  .author-list button.edit {
+    background-color: #007bff;
+  }
+  
+  .author-list button.delete {
+    background-color: #dc3545;
+  }
+  
+  .author-list button:hover {
+    opacity: 0.8;
+  }
+  
